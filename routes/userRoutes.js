@@ -4,7 +4,6 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
  
-const User = require('../models/Users');
  
 // ✅ Criar usuário (registro) — público
 router.post('/', async (req, res) => {
